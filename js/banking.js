@@ -5,7 +5,6 @@ document.getElementById('deposit-button').addEventListener('click', function () 
     // console.log(depositAmount);
     const depositTotal = document.getElementById('deposit-total');
     const previousDepositAmount = depositTotal.innerText;
-    
     const newDepositTotal = parseFloat(previousDepositAmount) + parseFloat(newDepositAmount);
     depositTotal.innerText = newDepositTotal;
     // update account balance
